@@ -1,6 +1,6 @@
 import mongoose from "mongoose"
 
-const URI="mongodb+srv://carlosapolayasanchez:myenglishbro@cluster0.cbayzpv.mongodb.net/?retryWrites=true&w=majority"
+const URI="mongodb+srv://emadg07ed:<password>@cluster0.eywguyk.mongodb.net/"
 
 await mongoose.connect(URI,{
     serverSelectionTimeoutMS:5000,
