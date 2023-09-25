@@ -6,5 +6,3 @@ await mongoose.connect(URI,{
     serverSelectionTimeoutMS:5000,
 })
 console.log("Base de datos conectada....")
-
-
