@@ -1,0 +1,53 @@
+<%- include('../partials/header.ejs', { title: 'Register - Electro-Life', showNavbar: false }); -%>
+
+<main>
+  <section class="register" style="background-color: #2e3338;">
+    <div class="container d-flex justify-content-center align-items-center" style="height: 100vh;">
+      <div class="text-white bg-dark" style="width: 600px; padding: 5rem 3rem; border-radius: 2rem;">
+        <div class="text-center mb-5">
+          <h2>Agregar Productos</h2>
+        </div>
+        <div class="mb-4">
+          <form class="registerform" action="/auth/register" method="POST" >
+            
+            <div class="col-md-6 mb-4">
+                <label class="form-label" for="title">Nombre de Producto</label>
+                <input class="form-control" type="text" id="title" name="title">
+            </div>
+            
+            <div class="col-md-6 mb-4">
+                <label class="form-label" for="category">Categoria</label>
+                <input class="form-control" type="text" id="category" name="category">
+            </div>
+            
+            
+            <div class="col-md-6 mb-4">
+                <label class="form-label" for="description">Descripcion</label>
+                <input class="form-control" type="text" id="description" name="description">
+            </div>
+              
+            <div class="col-md-6 mb-4">
+                <label class="form-label" for="price">Precio</label>
+                <input class="form-control" type="number" id="price" name="price">
+            </div>
+            
+            
+            <div class="col-md-6 mb-4">
+                <label class="form-label" for="stock">Stock</label>
+                <input class="form-control" type="number" id="stock" name="stock">
+            </div>
+            
+            <div class="col-md-6 mb-4">
+              <label class="form-label" for="thumbnail">URL Imagen Producto</label>
+              <input class="form-control" type="text" id="thumbnail" name="thumbnail">
+            </div>
+            
+            <button  class="btn btn-primary w-100">Agregar Producto</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<%- include('../partials/footer.ejs', { showFooter: false }); -%>

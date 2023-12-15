@@ -1,0 +1,42 @@
+{
+  "name": "coderhouse-proyecto-final-43395",
+  "version": "1.0.0",
+  "description": "Entrega final curso de Desarrollo Backend Coderhouse - Comision 43395",
+  "main": "./server.js",
+  "type": "module",
+  "scripts": {
+    "test": "mocha ./src/test/products.test.js",
+    "dev": "nodemon -r dotenv/config server.js",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "Garcia Emanuel David",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.2.3",
+    "bcrypt": "^5.1.0",
+    "chai": "^4.3.7",
+    "compression": "^1.7.4",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "express-graphql": "0.12.0",
+    "express-session": "^1.17.3",
+    "firebase-admin": "^11.5.0",
+    "graphql": "^16.6.0",
+    "jsonwebtoken": "^9.0.0",
+    "mocha": "^10.2.0",
+    "mongoose": "^6.8.4",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.9.0",
+    "nodemon": "^2.0.20",
+    "passport": "^0.6.0",
+    "passport-local": "^1.0.0",
+    "socket.io": "^4.5.4",
+    "supertest": "^6.3.3",
+    "twilio": "^3.84.1",
+    "winston": "^3.8.2"
+  }
+}
